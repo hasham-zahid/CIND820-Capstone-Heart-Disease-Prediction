@@ -13,8 +13,8 @@ Tentative Stages of the Project
 
 
  File Legend
- heart_disease_brfss2019.csv --> The cleaned dataset
- brfss2019_cleaning_data.ipynb --> the notebook and code used to clean the dataset
- brfss2019_heart_disease_initial analysis --> The code and initial analysis of the dataset. Includes attribute information and project goals
- brfss_EDA_heart_disease --> exploratory data analysis notebook and code
- brfss_ML_models_heart_disease --> notebook comprising of feature selection, handling imbalanced target variable, creating machine learning models, feature importance, and finally model comparisions in that order.
+ 1. heart_disease_brfss2019.csv --> The cleaned dataset
+ 2. brfss2019_cleaning_data.ipynb --> the notebook and code used to clean the dataset
+ 3. brfss2019_heart_disease_initial analysis --> The code and initial analysis of the dataset. Includes attribute information and project goals
+ 4. brfss_EDA_heart_disease --> exploratory data analysis notebook and code
+ 5. brfss_ML_models_heart_disease --> notebook comprising of feature selection, handling imbalanced target variable, creating machine learning models, feature importance, and finally model comparisions in that order.
