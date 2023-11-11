@@ -1,6 +1,6 @@
 # CIND820-Capstone-Heart-Disease-Prediction
 
-Tentative Stages of the Project
+#### Tentative Stages of the Project
 1. Project proposal: This phase of the project revolves around finding a public and open dataset and seeing if it might be a valid and viable option to meet the projects requirements.
 2. Cleaning the dataset: This phase involves cleaning the dataset so that it may be used. This includes handling all outliers, missing values, and standardizing the variables so that the data may be used for analysis and model creation.
 3. Initial Analysis and Literature Review: After the dataset has been cleaned and is ready to be used, initial analysis will be performed to see the distribution of features, the correlation between features and size and shape of the dataset. A comprehensive literature review should also be carried out to see how past researchers have employed techinques and answered research questions related to similar or same data. This will be a good guideline in model selection and will also allow us to understand why our project is important as a contribution.
@@ -12,7 +12,7 @@ Tentative Stages of the Project
 9. Final Presentation: Condensing the most vital aspects of the final report into a presentation that can be interpreted and understood by stakeholders.
 
 
- File Legend
+ #### File Legend
  1. heart_disease_brfss2019.csv --> The cleaned dataset
  2. brfss2019_cleaning_data.ipynb --> the notebook used to clean the dataset
  3. brfss2019_heart_disease_initial analysis.ipynb --> the initial analysis of the dataset. This notebook also includes attribute information and project goals
