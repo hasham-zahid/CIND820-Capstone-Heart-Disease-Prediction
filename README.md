@@ -29,3 +29,19 @@ The data used in this study was an open dataset from 2019 conducted by the Centr
  3. brfss2019_heart_disease_initial analysis.ipynb --> the initial analysis of the dataset. This notebook also includes attribute information and project goals
  4. brfss_EDA_heart_disease.ipynb --> exploratory data analysis notebook
  5. brfss_ML_models_heart_disease.ipynb --> notebook comprising of feature selection, handling imbalanced target variable, creating machine learning models, feature importance, and finally model comparisions. This file gives insight into how well the models performed and important features in classification.
+
+### Results
+| Model | Accuracy | Precision | Recall | F1-Score | Fit Time |
+| ----- | -------- | --------- | ------ | -------- | -------- |
+| Logistic Regression | 79.2% | 27.9% | 67.3% | 0.394 | 0.14s |
+| K-Nearest Neighbors | 78.8% | 26.9 | 64.7% | 0.380 | 0.08s |
+| Support Vector Classifier | 78.0% | 27.0% | 69.9% | 0.390 | 40.5s |
+| Random Forests | 78.4% | 27.5% | 70.2% | 0.395 | 7.29s |
+| XGBoost | 77.9% | 27.1% | 71.2% | 0.393 | 0.11s |
+
+
+Overall, considering the accuracy, the F1-score, the trade off between precision/recall (recall is slightly more important for this specific dataset), and the fit times, the preferred model would be XGBoost. It was the second quickest model to fit at 0.11s and had a high F1-score at 0.393. The recall was also the highest of all the models at 0.71. The accuracy, despite being the lowest was still good at 77.9%. However, it should be noted that if model fit times are not a problem and the infrastructure to run complex algorithms is available, then the preferred model would have to be random forest classifier, which had the overall best metrics with high recall, f1-score, and accuracy.  
+
+
+In terms of feature importance, both random forests and XGBoost were quite similar, with the top four and bottom four features being the same across both models. High blood pressure, general health, age, and high cholesterol seem to be the most important factors in classification of heart disease. Diabetes, Stroke and Sex also play a role to some degree but not as much as the former features. Income seems to have least affect on determining and classifying heart disease and this was true for both random forest classifier importance and XGBoost importance. In a clinical setting, with some form of health expert or researcher surveying patients or individuals, the most important features to focus on the in the dataset would be age, followed closely by high blood pressure and high cholesterol. General health should also have a significant impact in screening, as it affects multiple areas of life such as physical activity and diet. Sex, previous history of stroke and diabetes should also be important factors to consider.
+
