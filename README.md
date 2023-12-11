@@ -23,12 +23,6 @@ The data used in this study was an open dataset from 2019 conducted by the Centr
 9. Final Presentation: Condensing the most vital aspects of the final report into a presentation that can be interpreted and understood by stakeholders.
 
 
- ### File Legend
- 1. heart_disease_brfss2019.csv --> The cleaned dataset
- 2. brfss2019_cleaning_data.ipynb --> the notebook used to clean the dataset
- 3. brfss2019_heart_disease_initial analysis.ipynb --> the initial analysis of the dataset. This notebook also includes attribute information and project goals
- 4. brfss_EDA_heart_disease.ipynb --> exploratory data analysis notebook
- 5. brfss_ML_models_heart_disease.ipynb --> notebook comprising of feature selection, handling imbalanced target variable, creating machine learning models, feature importance, and finally model comparisions. This file gives insight into how well the models performed and important features in classification.
 
 ### Results
 | Model | Accuracy | Precision | Recall | F1-Score | Fit Time |
@@ -45,3 +39,10 @@ Overall, considering the accuracy, the F1-score, the trade off between precision
 
 In terms of feature importance, both random forests and XGBoost were quite similar, with the top four and bottom four features being the same across both models. High blood pressure, general health, age, and high cholesterol seem to be the most important factors in classification of heart disease. Diabetes, Stroke and Sex also play a role to some degree but not as much as the former features. Income seems to have least affect on determining and classifying heart disease and this was true for both random forest classifier importance and XGBoost importance. In a clinical setting, with some form of health expert or researcher surveying patients or individuals, the most important features to focus on the in the dataset would be age, followed closely by high blood pressure and high cholesterol. General health should also have a significant impact in screening, as it affects multiple areas of life such as physical activity and diet. Sex, previous history of stroke and diabetes should also be important factors to consider.
 
+
+ ### File Legend
+ 1. heart_disease_brfss2019.csv --> The cleaned dataset
+ 2. brfss2019_cleaning_data.ipynb --> the notebook used to clean the dataset
+ 3. brfss2019_heart_disease_initial analysis.ipynb --> the initial analysis of the dataset. This notebook also includes attribute information and project goals
+ 4. brfss_EDA_heart_disease.ipynb --> exploratory data analysis notebook
+ 5. brfss_ML_models_heart_disease.ipynb --> notebook comprising of feature selection, handling imbalanced target variable, creating machine learning models, feature importance, and finally model comparisions. This file gives insight into how well the models performed and important features in classification.
