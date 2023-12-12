@@ -53,6 +53,11 @@ The target variable, ‘HeartDisease’, was imbalanced with a 9:1 ratio as illu
 
 In terms of feature selection, the following features were removed from the final models due to either being redundant because they are highly correlated with another feature, or because they did not have a high correlation with the target variable. The features removed were education, physical health, fruits, vegetables, mental health, heavy alcohol consumption, smoking, BMI, and physical activity. The final data had 8 features (not including the target variable), which consisted of age, sex, high blood pressure, high cholesterol, stroke, diabetes, income, and general health. 
 
+![image](https://github.com/hasham-zahid/CIND820-Capstone-Heart-Disease-Prediction/assets/148837970/ee9f1e5b-8bb4-46dc-897f-1c13e0304e40)
+
+![image](https://github.com/hasham-zahid/CIND820-Capstone-Heart-Disease-Prediction/assets/148837970/8a4ad995-0647-4861-9538-420ecf3ea14f)
+
+
 ### Results
 | Model | Accuracy | Precision | Recall | F1-Score | Fit Time |
 | ----- | -------- | --------- | ------ | -------- | -------- |
@@ -64,4 +69,9 @@ In terms of feature selection, the following features were removed from the fina
 
 Overall, considering the accuracy, the F1-score, the trade off between precision/recall (recall is slightly more important for this specific dataset), and the fit times, the preferred model would be XGBoost. It was the second quickest model to fit at 0.11s and had a high F1-score at 0.393. The recall was also the highest of all the models at 0.71. The accuracy, despite being the lowest was still good at 77.9%. However, it should be noted that if model fit times are not a problem and the infrastructure to run complex algorithms is available, then the preferred model would have to be random forest classifier, which had the overall best metrics with high recall, f1-score, and accuracy.  
 
+### Feature Importance 
 In terms of feature importance, both random forests and XGBoost were quite similar, with the top four and bottom four features being the same across both models. High blood pressure, general health, age, and high cholesterol seem to be the most important factors in classification of heart disease. Diabetes, Stroke and Sex also play a role to some degree but not as much as the former features. Income seems to have least affect on determining and classifying heart disease and this was true for both random forest classifier importance and XGBoost importance. In a clinical setting, with some form of health expert or researcher surveying patients or individuals, the most important features to focus on the in the dataset would be age, followed closely by high blood pressure and high cholesterol. General health should also have a significant impact in screening, as it affects multiple areas of life such as physical activity and diet. Sex, previous history of stroke and diabetes should also be important factors to consider.
+
+![image](https://github.com/hasham-zahid/CIND820-Capstone-Heart-Disease-Prediction/assets/148837970/adbf7f88-e0af-4b7a-9b5b-607bb6f243fb)
+![image](https://github.com/hasham-zahid/CIND820-Capstone-Heart-Disease-Prediction/assets/148837970/8f9b908d-08d5-4a13-bbbd-a77c9d6fa0b6)
+
