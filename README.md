@@ -32,6 +32,17 @@ According to the CDC, important risk factors for heart disease are high blood pr
 8. Final Report: A final report compiling, revising and aggregating all the above stages into one file.
 9. Final Presentation: Condensing the most vital aspects of the final report into a presentation that can be interpreted and understood by stakeholders.
 
+### Overall Methodology and Approach
+
+The general goal of this project is to not only create a machine learning algorithm that is effective at predicting and classifying heart disease, but to compare the effectiveness of various machine learning algorithms with each other to determine which one would be the most accurate.  Additionally, a secondary objective to see which features and survey questions are more likely to be important in the prediction of heart disease compared to others was also determined (e.g., what features to look out for in patients).
+
+Firstly, in the planning phase, research will be conducted in choosing the most relevant features of the dataset. The dataset will be cleaned, missing values handled, and outliers detected. The dataset will be made as consistent as possible. Initial analysis will be performed to determine the distributions of the attributes, especially the target variable, and the correlation of the attributes will be analysed. A literature review will also be conducted at this stage to determine which techniques to use and how similar studies have handled certain problems (e.g., imbalanced data).
+
+Secondly, a more in-depth exploratory data analysis will be conducted on the dataset, and key takeaways from the data will be outlined. The data analysis will focus on the relationship between the target variable and other variables, as well as the relationship between non-target variables. Afterwards, the data will be balanced using SMOTE or RandomUndersampling and will be split into a train-test split. Features will be chosen, and a 5-fold cross validated randomized search will be performed on all models to find the best parameter. Randomized search was chosen over grid search to save computation time and complexity. 10-fold cross validation will then be used on the best parameters specifically to determine the stability of the model and the model will then be used on the test set to determine performance and fit time. 
+
+Finally, the models will be trained and evaluated using accuracy, F1-score, precision and recall as the evaluation metrics. The techniques used will be Logistic Regression, K-Nearest Neighbors, Support Vector Machines, Random Forests, and XGBoost. In this phase, features that are most important in determining the correct output will also be analyzed using the Random Forests and XGBoost models, so they may act as general guideline in survey questions. 
+
+
 ### Insights About The Dataset
 1. The percentage of people suffering from heart disease is far less than those who are not; imbalanced target variable
 2. Despite being the minority class in the dataset, the proportion of males suffering from heart attack is higher than females. This may indicate that men are more at risk of heart disease than women.
