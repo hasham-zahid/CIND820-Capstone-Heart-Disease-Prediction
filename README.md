@@ -6,7 +6,7 @@
  3. Initial_Analysis_and_Correlation_brfss2019.ipynb --> the initial analysis of the dataset. This notebook also includes attribute information and project goals
  4. Exploratory_Data_Analysis_brfss2019,ipynb --> exploratory data analysis notebook
  5. Predictive_Models_and_Results_brfss2019.ipynb --> notebook comprising of feature selection, handling imbalanced target variable, creating machine learning models, feature importance, and finally model comparisions. This file gives insight into how well the models performed and important features in classification.
- 6. Final_Report_brfss2019.pdf --> This includes the cumalative final report, including but not limited to the literature review, exploratory data analysis, handling of imbalanced data, predictive models and features, shortcomings, strengths, contributions and challenges and further work. This offers more of an indepth understanding of the project and its phases. 
+ 6. brfss2019_Final_Report.pdf --> This includes the cumalative final report, including but not limited to the literature review, exploratory data analysis, handling of imbalanced data, predictive models and features, shortcomings, strengths, contributions and challenges and further work. This offers more of an indepth understanding of the project and its phases. 
 
 ### Table of Contents
 1. Introduction to the Project and Cardiovascular Disease
