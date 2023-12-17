@@ -2,7 +2,7 @@
 
  ### File Legend
  1. heart_disease_brfss2019.csv --> The cleaned dataset
- 2. Data_Wrangling_brfss2019.ipynb --> the notebook used for data wrangling; to clean and transform the dataset
+ 2. Data_Cleaning_Transforming_brfss2019.ipynb --> the notebook used for data wrangling; to clean and transform the dataset
  3. Initial_Analysis_and_Correlation_brfss2019.ipynb --> the initial analysis of the dataset. This notebook also includes attribute information and project goals
  4. Exploratory_Data_Analysis_brfss2019,ipynb --> exploratory data analysis notebook
  5. Predictive_Models_and_Results.ipynb --> notebook comprising of feature selection, handling imbalanced target variable, creating machine learning models, feature importance, and finally model comparisions. This file gives insight into how well the models performed and important features in classification.
