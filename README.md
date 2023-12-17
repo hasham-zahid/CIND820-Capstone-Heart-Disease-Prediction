@@ -9,14 +9,14 @@
  6. Final_Report_brfss2019.pdf --> This includes the cumalative final report, including but not limited to the literature review, exploratory data analysis, handling of imbalanced data, predictive models and features, shortcomings, strengths, contributions and challenges and further work. This offers more of an indepth understanding of the project and its phases. 
 
 ### Table of Contents
-Introduction to the Project and Cardiovascular Disease
-Dataset Information
-Tentative Stages of the Project
-Overall Methodology and Approach
-Insights About The Dataset
-Handling Imbalanced Data and Feature Selection
-Results for Predictive Models
-Results for Feature Importance
+1. Introduction to the Project and Cardiovascular Disease
+2. Dataset Information
+3. Tentative Stages of the Project
+4. Overall Methodology and Approach
+5. Insights About The Dataset
+6. Handling Imbalanced Data and Feature Selection
+7. Results for Predictive Models
+8. Results for Feature Importance
 
 
 ### Introduction to the Project and Cardiovascular Disease
