@@ -3,7 +3,7 @@
  ### File Legend
  1. heart_disease_brfss2019.csv: The cleaned dataset
  2. Data_Cleaning_Transforming_brfss2019.ipynb: The notebook used for data wrangling; to clean and transform the dataset
- 4. Exploratory_Data_Analysis_brfss2019,ipynb: Exploratory data analysis, visulizations, insights into the data notebook
+ 4. Exploratory_Data_Analysis_brfss2019.ipynb: Exploratory data analysis, visulizations, insights into the data notebook
  5. Predictive_Models_and_Results_brfss2019.ipynb: Notebook comprising of feature selection, handling imbalanced target variable, creating machine learning models, feature importance, and finally model comparisions. This file gives insight into how well the models performed and important features in classification.
  6. brfss2019_Final_Report.pdf: This includes the cumalative final report, including but not limited to the literature review, exploratory data analysis, handling of imbalanced data, predictive models and features, shortcomings, strengths, contributions and challenges and further work. This offers more of an indepth understanding of the project and its phases. 
 
@@ -73,14 +73,18 @@ Finally, the models will be trained and evaluated using accuracy, F1-score, prec
 13. Neither heavy alcohol consumption or smoking seem to have a significant correlation with heart disease in the current dataset.
 14. General Health and Physical Health seem to correlated, suggesting that good physical health may contribute to a good general health. Furthermore, good general health seems to decrease the risk of heart disease. It can be inferred from the data that good physical health, which subsequently leads to good general health, is also quite important in reduciing the risk CVD or MI.
 
+For more visualizations, please refer to the jupyter notebook titled "Exploratory_Data_Analysis_brfss2019.ipynb"
+
+Correlation Matrix for Multivariate Analysis:
+![image](https://github.com/hasham-zahid/CIND820-Capstone-Heart-Disease-Prediction/assets/148837970/255557b3-9b0d-4e4a-bf07-da6de2ad8092)
+
+
 ### Handling Imbalanced Data and Feature Selection
 The target variable, ‘HeartDisease’, was imbalanced with a 9:1 ratio as illustrated by Figure 1. To solve this problem, Synthetic Minority Oversampling Technique (SMOTE) and RandomUndersampling were used to balance the classes to an acceptable ratio. This was performed on the training data only, and the test set data was left imbalanced to mimic real world scenarios. After testing and consideration, only RandomUndersampling was used to under sample the majority class, instead of SMOTE to oversample, or SMOTE and RandomUndersampling together. After RandomUndersampling the target variable had a 2:3 split which was adequate. This left the training dataset with 49,756 samples and the test set with 22705 samples. 
 
 In terms of feature selection, the following features were removed from the final models due to either being redundant because they are highly correlated with another feature, or because they did not have a high correlation with the target variable. The features removed were education, physical health, fruits, vegetables, mental health, heavy alcohol consumption, smoking, BMI, and physical activity. The final data had 8 features (not including the target variable), which consisted of age, sex, high blood pressure, high cholesterol, stroke, diabetes, income, and general health. 
 
-![image](https://github.com/hasham-zahid/CIND820-Capstone-Heart-Disease-Prediction/assets/148837970/ee9f1e5b-8bb4-46dc-897f-1c13e0304e40)
-
-![image](https://github.com/hasham-zahid/CIND820-Capstone-Heart-Disease-Prediction/assets/148837970/8a4ad995-0647-4861-9538-420ecf3ea14f)
+![image](https://github.com/hasham-zahid/CIND820-Capstone-Heart-Disease-Prediction/assets/148837970/ee9f1e5b-8bb4-46dc-897f-1c13e0304e40) ![image](https://github.com/hasham-zahid/CIND820-Capstone-Heart-Disease-Prediction/assets/148837970/8a4ad995-0647-4861-9538-420ecf3ea14f)
 
 
 ### Results for Predictive Models
