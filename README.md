@@ -12,11 +12,12 @@
 2. Dataset Information
 3. Tentative Stages of the Project
 4. Overall Methodology and Approach
-5. Insights About The Dataset
-6. Handling Imbalanced Data and Feature Selection
-7. Results for Predictive Models
-8. Results for Feature Importance
-9. Conclusions and Further Work
+5. Literature Review 
+6. Insights About The Dataset
+7. Handling Imbalanced Data and Feature Selection
+8. Results for Predictive Models
+9. Results for Feature Importance
+10. Conclusions and Further Work
 
 ### Introduction to the Project and Cardiovascular Disease
 Cardiovascular diseases (CVDs) are the leading cause of death globally and are among the most prevalent chronic diseases in the United States, leading to 1 in 5 deaths annually. The term “heart disease” or CVD can refer to several types of heart conditions, with the most common type being coronary artery disease (CAD). Eventually, most of theses heart diseases will lead to a myocardial infarction (heart attack) or a stroke. It is paramount that timely, effective, and precise intervention be taken to ensure that patients are diagnosed and treated properly. In this respect, machine learning (ML) algorithms and approaches can help in the classification and prediction of heart diseases by looking at patient history, chronic diseases, and past behaviours, as sometimes heart disease is not diagnosed until an individual experiences the symptoms of heart failure.
@@ -57,7 +58,7 @@ Secondly, a more in-depth exploratory data analysis will be conducted on the dat
 Finally, the models will be trained and evaluated using accuracy, F1-score, precision and recall as the evaluation metrics. The techniques used will be Logistic Regression, K-Nearest Neighbors, Support Vector Machines, Random Forests, and XGBoost. In this phase, features that are most important in determining the correct output will also be analyzed using the Random Forests and XGBoost models, so they may act as general guideline in survey questions. 
 
 ###  Literature Review
-The full literature review is long and covers multiple studies. For the sake of keeping this readme short, the full literature review can be found in the respository within the Final Report file. The purpose of the literature review was to analyze what past research and technqiues had been employed to similar problems and how challenges were overcome, giving an idea of how this project can be structured. This included information on which machine learning algorithms were employed, which technqiues were used to handle imbalanced data, information on the dataset and how this project can contribute further to the work. 
+The full literature review is long and covers multiple studies. For the sake of keeping this readme short, the full literature review can be found in the respository within the Final Report file. The purpose of the literature review was to analyze what past research and technqiues had been employed to similar problems and how challenges were overcome, giving an idea of how this project can be structured. This included information on which machine learning algorithms were employed, which technqiues were used to handle imbalanced data, information on the dataset and how this project can contribute further to the work. References to all the studies can also be found on the last page of the Final Report file in the repository.
 
 Addtionally, using the information acquired from the analyzing the literature, the objectives of this project can be reiterated. The purpose of this research paper is to analyze the effectiveness of different machine learning models in the prediction and detection of heart disease, as well as determine which general features would be most important in a survey from a healthcare expert in the determining of heart disease. The aforementioned studies are also attempting to do the same, with some of them focusing on different aspects or different techniques overall. For example, Plati et. al is the only study to focus on both the clinical aspect (surveys) and the technical aspect (machine learning models) with the research. Most of the studies mentioned only focus on the technical aspects.
 
