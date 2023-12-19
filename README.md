@@ -1,4 +1,4 @@
-# Heart-Disease-Prediction-and-Classification-of-Using-Chronic-Behavioural-Indicators
+# Heart Disease Prediction and Classification Using Chronic Behavioural Indicators
 
 ### File Legend
  1. heart_disease_brfss2019.csv: The cleaned dataset
