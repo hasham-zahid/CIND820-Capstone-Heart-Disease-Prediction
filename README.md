@@ -1,6 +1,6 @@
-# CIND820-Capstone-Heart-Disease-Prediction
+# Heart-Disease-Prediction-and-Classification-of-Using-Chronic-Behavioural-Indicators
 
- ### File Legend
+### File Legend
  1. heart_disease_brfss2019.csv: The cleaned dataset
  2. Data_Cleaning_Transforming_brfss2019.ipynb: The notebook used for data wrangling; to clean and transform the dataset
  4. Exploratory_Data_Analysis_brfss2019.ipynb: Exploratory data analysis, visulizations, insights into the data notebook
