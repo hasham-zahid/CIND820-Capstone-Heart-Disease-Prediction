@@ -122,3 +122,20 @@ In the technical aspect, the preferred model for this specific dataset and probl
 Overall, the model seems to be good at classifying heart disease but not very good at truly predicting it. In this case of this project, recall was more important that precision due to the sensitive target variable, but a higher precision would still be quite beneficial. This may change with more data, a stronger approach and more powerful predictive techniques. 
 
 Looking forward to the future, this research could further be developed by using more resources to perform a better parameter search. Additionally, deep learning techniques can be employed to discover any other possible solutions to the problem. The study may also benefit from more raw data being utilized for the training and testing. Finally, some other sampling techniques such as AdaSyn may also be used to see if the algorithms perform better.
+
+
+### References
+
+Hopkins J, Agarwal G, Dolovich L. Quality indicators for the prevention of cardiovascular disease in primary care. Can Fam Physician. 2010 Jul;56(7) 
+
+Khan MA, Hashim MJ, Mustafa H, Baniyas MY, Al Suwaidi SKBM, AlKatheeri R, Alblooshi FMK, Almatrooshi MEAH, Alzaabi MEH, Al Darmaki RS, Lootah SNAH. Global Epidemiology of Ischemic Heart Disease: Results from the Global Burden of Disease Study. Cureus. 2020 Jul 23;12(7). 
+
+Lakshmanarao, A & Swathi, Y & Pullela, Sundareswar. (2020). Machine Learning Techniques For Heart Disease Prediction. International Journal of Scientific & Technology Research. 8. 374. 
+
+Plati DK, Tripoliti EE, Bechlioulis A, Rammos A, Dimou I, Lakkas L, Watson C, McDonald K, Ledwidge M, Pharithi R, et al. A Machine Learning Approach for Chronic Heart Failure Diagnosis. Diagnostics. 2021; 11(10):1863. 
+
+Pouriyeh, S., Vahid, S., Sannino, G., De Pietro, G., Arabnia, H., & Gutierrez, J. (2017). A comprehensive investigation and comparison of Machine Learning Techniques in the domain of heart disease. 2017 IEEE Symposium on Computers and Communications (ISCC). 
+
+TR, R. ., Lilhore, U. K., M, P. ., Simaiya, S. ., Kaur, . A. ., & Hamdi, M. . (2022). PREDICTIVE ANALYSIS OF HEART DISEASES WITH MACHINE LEARNING APPROACHES. Malaysian Journal of Computer Science, 132–148. 
+
+Yadav, S. S., Jadhav, S. M., Nagrale, S., & Patil, N. (2020). Application of Machine Learning for the Detection of Heart Disease. 2020 2nd International Conference on Innovative Mechanisms for Industry Applications (ICIMIA).
